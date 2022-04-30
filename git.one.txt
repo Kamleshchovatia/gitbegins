@@ -6,3 +6,30 @@ modifying
 git status
 git commit
 git push
+
+git init
+
+create a text file, write all these commands
+
+git add .
+or
+
+git add filename
+
+git status // just to check whether you did right thing
+
+git commit -m 'message'  // to commit
+
+git remote origin add yourgithuburl.com  // to add remote url, need to do only one time per project
+
+to check remote added correctly
+git remote -v
+// if you want to remove the remote and add again
+git remote remove origin
+// and try again with command
+git remote add origin newurl
+
+git push origin main // everytime you want to push changes to github.com
+to push different branch
+
+git push origin nameOfYourBranch
